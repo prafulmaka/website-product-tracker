@@ -14,3 +14,5 @@ soup = BeautifulSoup(req.content, 'html.parser')
 all_p = soup.find_all('div', attrs={"class": "swatch-size__item swatch-size-unavailable"})
 for item in all_p:
     print(item)
+
+
