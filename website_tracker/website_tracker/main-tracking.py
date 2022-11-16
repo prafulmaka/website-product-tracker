@@ -15,3 +15,5 @@ all_p = soup.find_all('div', attrs={"class": "swatch-size__item swatch-size-unav
 for item in all_p:
     print(item)
 
+
+
